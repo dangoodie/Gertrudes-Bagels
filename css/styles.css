@@ -3,7 +3,8 @@ body {
 }
 
 #title {
-    background-color: #A760FF;
+    background: linear-gradient(#A760FF, #CA82FF);
+    
     color: white;
 }
 
