@@ -3,50 +3,65 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Gertrude's Bagels</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <title>bagel buddy</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/66344054e6.js" crossorigin="anonymous"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="css/styles.css">
-  
+
 </head>
 
 <body>
-  
+
 
   <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">bagel buddy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+          aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="">Gertrude's Bagels</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Download</a>
-          </li>
-        </ul>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Bagels delivered whenever.</h1>
+          <button class="btn btn-dark btn-lg download-btn" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg download-btn" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 col-title-img">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
-    </nav>
-
-
-
-    <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
     </div>
 
   </section>
@@ -55,16 +70,23 @@
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+      <div class="row">
+        <div class="col-lg-4 feature-box">
+          <i class="icon fa-solid fa-circle-check fa-4x"></i>
+          <h3>Easy to use</h3>
+          <p class="feature-text">So easy to use, even your grandma could do it.</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="icon fa-solid fa-bowl-food fa-4x"></i>
+          <h3>Highest Quality</h3>
+          <p class="feature-text">Bagels imported directly from New York and cream cheese from Philadelphia.</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="icon fa-solid fa-face-smile-beam fa-4x"></i>
+          <h3>Guaranteed delicious</h3>
+          <p class="feature-text">So good you'll be ordering more before you finish.</p>    
+        </div>
+      </div>
   </section>
 
 
