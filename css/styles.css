@@ -28,7 +28,8 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+
 }
 
 /* Navigation Bar */
@@ -65,12 +66,34 @@ p {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: relative;
+        transform: rotate(0deg);
+        right: 0;
+    }
+
+}
+
+.title-img-container {
+    position: relative;
 }
 
 /* Features */
 
 #features {
     padding: 7% 10%;
+    background-color: white;
+    position: relative;
 }
 
 .feature-box {
@@ -126,6 +149,26 @@ p {
 /* Pricing */
 
 #pricing {
-    padding: 7% 10%;
+    padding: 100px;
     text-align: center;
 }
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    color: white;
+    background-color: #A760FF;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.cta-btn {
+    margin: 5% 2% 0;
+}
+
+/* Footer */
+
