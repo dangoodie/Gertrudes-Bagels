@@ -37,12 +37,22 @@ p {
 
 }
 
+/* Sections */
+
+.coloured-section {
+    background-color: #A760FF;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    
+}
+
 /* Title Area */
 
 #title {
-    background: linear-gradient(#A760FF, #CA82FF);
     text-align: left;
-    color: white;
 }
 
 #title .container-fluid {
@@ -113,7 +123,6 @@ p {
 /* Features */
 
 #features {
-    background-color: white;
     position: relative;
 }
 
@@ -145,11 +154,6 @@ p {
 
 /* Testimonials */
 
-#testimonials {
-    background-color: #CA82FF;
-    color: white;
-}
-
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
@@ -164,7 +168,6 @@ p {
 
 /* Press */
 #press {
-    background-color: #CA82FF;
     padding-bottom: 3%;
 }
 
@@ -198,11 +201,6 @@ p {
 
 /* CTA */
 
-#cta {
-    color: white;
-    background-color: #A760FF;
-}
-
 .cta-heading {
     font-size: 2.5rem;
     font-weight: 900;
@@ -215,7 +213,6 @@ p {
 /* Footer */
 
 #footer {
-    background-color: white;
     padding: 5% 10% 3%;
 }
 .copyright {
