@@ -172,3 +172,15 @@ p {
 
 /* Footer */
 
+#footer {
+    background-color: white;
+    padding: 5% 10% 3%;
+    text-align: center;
+}
+.copyright {
+    margin-bottom: 0;
+}
+.footer-icon {
+    color: black;
+    margin: 3% 1%;
+}
