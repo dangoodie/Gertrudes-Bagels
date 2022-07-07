@@ -88,6 +88,8 @@ p {
     transform: rotate(25deg);
     position: absolute;
     right: 10%;
+    transition: transform 0.3s;
+
 
 }
 
@@ -173,10 +175,6 @@ p {
 }
 
 /* Pricing */
-
-#pricing {
-
-}
 
 .pricing-header {
     font-weight: 400;
